@@ -5,29 +5,30 @@ title: ゲーイベ！ ゲームのイベント情報おまとめ通知アプリ
 .container-fluid
   .row.header
     .col-lg-7.logo.text-center
-      %h1
+      %h1#logo
         %img(src="./images/logo_text.png")
       %h2 ゲームのイベント情報おまとめ通知アプリ
       %p
         国内主要ゲームのイベント情報を完全網羅！
-        %br
         自分が遊んでいるゲームの情報を自動で整理、
-        %br
         開始時にプッシュ通知でお知らせしてくれる
-        %br
         超便利サービス、それが「ゲーイベ！」です。
-      %div.download.clearfix
-        %div.pull-left.text-right
-          %a(href="https://itunes.apple.com/us/app/geibe!-gemunoibento-qing-baoomatome/id1018872274?l=ja&ls=1&mt=8" target="_blank")
-            %img(src="https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="" data-hires-status="pending")
-        %div.pull-right.text-left#android-btn
-          %div.comingsoon
-            Coming soon..
-          %img(src="./images/android.png" alt="")
-    .col-lg-5.screenshot.text-left
+      %div.download
+        .row
+          .col-lg-2
+          .col-lg-4#iphone-btn
+            %a(href="https://itunes.apple.com/us/app/geibe!-gemunoibento-qing-baoomatome/id1018872274?l=ja&ls=1&mt=8" target="_blank")
+              %img(src="https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="" data-hires-status="pending")
+          #android-btn.col-lg-4
+            %div.comingsoon
+              Coming soon..
+              %img(src="./images/android.png" alt="")
+          .col-lg-2
+    .col-lg-4.screenshot
       %img(src="./images/main.png")
       .dragon.fuwafuwa
         %img(src="./images/dragon.png")
+    .col-lg-1
 
 %section.feature
   %h1.headline ゲーイベ！ここがすごい！

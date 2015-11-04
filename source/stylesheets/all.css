@@ -20,7 +20,7 @@ img {
   margin: 80px auto;
   text-align: center;
 }
-.logo img {
+#logo {
   max-width: 100%;
   width: 65%;
   margin: 0 auto;
@@ -32,13 +32,10 @@ img {
 }
 .logo p {
   font-size: 20px;
+  margin: 0 10%;
 }
 .download {
   margin: 20px 0;
-}
-.download > div {
-  width: 48%;
-  margin: 0 1%;
 }
 .download img {
   height: 60px;
@@ -133,6 +130,9 @@ footer a, footer a:visited{
   color: #fff;
 }
 
+#iphone-btn {
+  margin-bottom: 20px;
+}
 #android-btn {
   position: relative;
 }
@@ -140,14 +140,23 @@ footer a, footer a:visited{
   width: 172px;
   height: 60px;
   border-radius: 5px;
-  position: absolute;
-  background: rgba(255,255,255,0.7);
+  position: relative;
+  margin: 0 auto;
+  /*background: rgba(255,255,255,0.7);*/
+  background: #fff;
 
   color: #000;
   font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   line-height: 60px;
+  z-index: 2;
+}
+.comingsoon img {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  z-index: 1;
 }
 
 .feature_box {
