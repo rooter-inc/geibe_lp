@@ -118,7 +118,7 @@ h1.catch {
   margin: 0 15px;
 }
 .games img {
-  width: 150px;
+  width: 100px;
   border-radius: 30px;
 }
 
@@ -131,4 +131,32 @@ footer {
 
 footer a, footer a:visited{
   color: #fff;
+}
+
+#android-btn {
+  position: relative;
+}
+.comingsoon {
+  width: 172px;
+  height: 60px;
+  border-radius: 5px;
+  position: absolute;
+  background: rgba(255,255,255,0.7);
+
+  color: #000;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+}
+
+.feature_box {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+#feature_1 {
+  background: url("../images/main.png");
+  background-size: cover;
+  background-position: top center;
 }
