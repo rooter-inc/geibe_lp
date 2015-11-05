@@ -58,7 +58,7 @@
 @media (max-width: 1000px) {
   /* line 59, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   .header {
-    margin-top: 0; }
+    padding-top: 0; }
 
   /* line 60, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   #logo {
