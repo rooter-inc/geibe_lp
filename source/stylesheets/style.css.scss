@@ -40,20 +40,6 @@
   }
 }
 
-//スマホ版
-@media (max-width: 1000px) {
-  .screenshot {
-    height: 1100px;
-  }
-  .dragon img { width: 100%; }
-  #logo { width: 80%; }
-  #logo img {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .feature .col-lg-4 { margin-bottom: 70px; }
-}
-
 .dragon {
   position: absolute;
   width: 300px;
@@ -68,6 +54,17 @@
 
   img { width: 60%; }
 }
+
+//スマホ版
+@media (max-width: 1000px) {
+  #logo { width: 80%; }
+  #logo img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .feature .col-lg-4 { margin-bottom: 70px; }
+}
+
 .fuwafuwa {
 	-webkit-animation-name:fuwafuwa;
 	-webkit-animation-duration:2s;
@@ -115,15 +112,24 @@ h1.catch {
   font-weight: bold;
 }
 
-.games ul {
-  margin: 50px 0;
+.games {
+  ul {
+    margin: 50px 0;
+  }
+  li {
+    margin: 0 15px;
+  }
+  img {
+    width: 100px;
+    border-radius: 30px;
+  }
 }
-.games ul li {
-  margin: 0 15px;
-}
-.games img {
-  width: 100px;
-  border-radius: 30px;
+//スマホ版
+@media (max-width: 1000px) {
+  .games li {
+    width: 15%;
+    margin: 0;
+  }
 }
 
 footer {
