@@ -12,10 +12,10 @@
   .logo h2 {
     font-weight: bold;
     margin: 15px auto;
-    font-size: 26px; }
+    font-size: 1.6em; }
   /* line 17, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   .logo p {
-    font-size: 20px;
+    font-size: 1.2em;
     margin: 0 10%; }
 
 /* line 22, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
@@ -115,55 +115,52 @@ h1.headline {
 /*******************
 Feature
 *******************/
-/* line 109, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
-.feature {
-  font-size: 20px; }
-  /* line 111, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
-  .feature .row {
-    margin: 70px 0; }
-  /* line 112, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
-  .feature img {
-    width: 70%; }
+/* line 110, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+.feature .row {
+  margin: 70px 0; }
+/* line 111, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+.feature img {
+  width: 70%; }
 
-/* line 115, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 114, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 h1.catch {
   font-weight: bold; }
 
-/* line 119, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 118, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 .games ul {
   margin: 50px 0; }
 
-/* line 122, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 121, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 .games ul li {
   margin: 0 15px; }
 
-/* line 125, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 124, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 .games img {
   width: 100px;
   border-radius: 30px; }
 
-/* line 130, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 129, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 footer {
   margin-top: 50px;
   background: #333;
   color: #ddd;
   padding: 20px 0; }
-  /* line 136, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 135, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   footer a, footer a:visited {
     color: #fff; }
-  /* line 137, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 136, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   footer small {
     font-size: 0.8em; }
 
-/* line 141, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 140, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 #iphone-btn {
   margin-bottom: 20px; }
 
-/* line 142, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 141, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 #android-btn {
   position: relative; }
 
-/* line 144, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 143, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 .comingsoon {
   width: 172px;
   height: 60px;
@@ -173,34 +170,34 @@ footer {
   /*background: rgba(255,255,255,0.7);*/
   background: #fff;
   color: #000;
-  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   line-height: 60px;
   z-index: 2; }
-  /* line 160, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 158, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   .comingsoon img {
     opacity: 0.5;
     position: absolute;
     left: 0;
+    top: 0;
     z-index: 1; }
 
 @media (max-width: 1000px) {
-  /* line 170, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 169, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   #iphone-btn img {
     width: 50%;
     height: auto; }
 
-  /* line 174, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 173, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
   .comingsoon {
     display: none; } }
-/* line 181, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 180, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 .feature_box {
   width: 100%;
   height: 400px;
   overflow: hidden; }
 
-/* line 186, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 185, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
 #feature_1 {
   background: url("../images/main.png");
   background-size: cover;
