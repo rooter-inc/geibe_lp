@@ -1,45 +1,45 @@
-/* line 1, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 1, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .header {
   position: relative;
   padding: 50px 0;
   background: url("../images/bg.png"); }
 
-/* line 7, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 7, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .logo {
   margin: 80px auto;
   text-align: center; }
-  /* line 11, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 11, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .logo h2 {
     font-weight: bold;
     margin: 15px auto;
     font-size: 1.6em; }
-  /* line 16, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 16, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .logo p {
     font-size: 1.2em;
     margin: 0 10%; }
 
-/* line 21, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 21, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 #logo {
   width: 65%;
   margin: 0 auto; }
 
-/* line 26, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 26, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .download {
   margin: 20px 0; }
-  /* line 28, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 28, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .download img {
     height: 60px;
     width: auto;
     margin: 0 auto; }
 
-/* line 35, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 35, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .screenshot {
   overflow: hidden; }
-  /* line 37, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 37, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .screenshot img {
     width: 80%; }
 
-/* line 42, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 42, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .dragon {
   position: absolute;
   width: 300px;
@@ -51,28 +51,28 @@
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH"; }
-  /* line 54, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 54, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .dragon img {
     width: 60%; }
 
 @media (max-width: 1000px) {
-  /* line 59, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 59, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .header {
     padding-top: 0; }
 
-  /* line 60, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 60, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   #logo {
     width: 80%; }
 
-  /* line 61, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 61, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   #logo img {
     width: 100%;
     margin: 0 auto; }
 
-  /* line 65, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 65, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .feature .col-lg-4 {
     margin-bottom: 70px; } }
-/* line 68, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 68, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .fuwafuwa {
   -webkit-animation-name: fuwafuwa;
   -webkit-animation-duration: 2s;
@@ -99,7 +99,7 @@
     -moz-transform: translate(0, -10px); }
   100% {
     -moz-transform: translate(0, 0); } }
-/* line 92, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 92, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 h1.headline {
   margin: 0;
   padding: .5em .75em;
@@ -111,55 +111,55 @@ h1.headline {
 /*******************
 Feature
 *******************/
-/* line 107, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 107, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .feature .row {
   margin: 70px 0; }
-/* line 108, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 108, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .feature img {
   width: 70%; }
 
-/* line 111, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 111, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 h1.catch {
   font-weight: bold; }
 
-/* line 116, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 116, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .games ul {
   margin: 50px 0; }
-/* line 119, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 119, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .games li {
   margin: 0 15px; }
-/* line 122, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 122, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .games img {
   width: 100px;
   border-radius: 30px; }
 
 @media (max-width: 1000px) {
-  /* line 129, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 129, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .games li {
     width: 15%;
     margin: 0; } }
-/* line 135, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 135, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 footer {
   margin-top: 50px;
   background: #333;
   color: #ddd;
   padding: 20px 0; }
-  /* line 141, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 141, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   footer a, footer a:visited {
     color: #fff; }
-  /* line 142, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 142, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   footer small {
     font-size: 0.8em; }
 
-/* line 146, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 146, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 #iphone-btn {
   margin-bottom: 20px; }
 
-/* line 147, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 147, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 #android-btn {
   position: relative; }
 
-/* line 149, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 149, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .comingsoon {
   width: 172px;
   height: 60px;
@@ -173,7 +173,7 @@ footer {
   text-align: center;
   line-height: 60px;
   z-index: 2; }
-  /* line 164, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 164, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .comingsoon img {
     opacity: 0.5;
     position: absolute;
@@ -182,25 +182,25 @@ footer {
     z-index: 1; }
 
 @media (max-width: 1000px) {
-  /* line 175, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 175, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   #iphone-btn img {
     width: 50%;
     height: auto; }
 
-  /* line 179, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 179, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   .comingsoon {
     display: none; }
 
-  /* line 182, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+  /* line 182, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
   footer {
     font-size: 0.8em; } }
-/* line 187, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 187, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 .feature_box {
   width: 100%;
   height: 400px;
   overflow: hidden; }
 
-/* line 192, /Users/tomomichi/Documents/projects/geibe_lp/source/stylesheets/style.css.scss */
+/* line 192, /Users/tomomichi/Documents/projects/rooter/geibe_lp/source/stylesheets/style.css.scss */
 #feature_1 {
   background: url("../images/main.png");
   background-size: cover;
